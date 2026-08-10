@@ -1,72 +1,77 @@
-body{
-    background-color: #fffdfd;
-    color: #000000;
-    font-family: Arial, sans-serif;
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  color: #333333;
 }
 
+/* ================================
+   HEADER
+   Style your header content here
+================================ */
 header{
-    background-color: #028286;
-    color: #ffffff;
-    display: flex;
-    padding: 10px 20px;
-    border-bottom: 1px solid #e0e0e0;
-    justify-content: flex-start;
+
 }
 
-.logo img {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%
+logo {
+
+}
+/* ================================
+   NAVIGATION BAR
+================================ */
+
+/* The nav element is the container for the whole menu bar */
+nav {
+  background-color: #0070BA; /* This gives the nav bar a solid background colour */
+  padding: 0 20px;           /* Adds space on the left and right inside the bar */
 }
 
-.navbar{
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    gap: 15px;
-}
-
-.navbar-top-right {  
-    top: 10px;
-    right: 20px;
-    display: flex;
-    align-items: center;
-    gap: 15px;
-    z-index: 1000;
-}
-
-.navbar-top-right-ul {
-    display: flex;
-    gap: 15px;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
+/* The ul is the list that holds all our nav links */
 nav ul {
-    list-style-type: none;
-    padding: 0;
-    display: flex;
-    gap: 20px;
+  list-style: none;          /* Removes the bullet points from the list */
+  margin: 0;                 /* Removes default spacing around the list */
+  padding: 0;                /* Removes default padding inside the list */
+  display: flex;             /* Lines all the list items up side by side */
+  gap: 10px;                 /* Adds a small space between each link */
 }
 
-.navbar-ul-li-a {
-    text-decoration: none;
-    color: #000000;
-    font-weight: bold;
+/* Each li is one item in the nav — one link */
+nav ul li {
+  padding: 16px 12px;        /* Adds space above, below, left and right of each link */
+}
+
+/* The a tag is the actual clickable link */
+nav ul li a {
+  text-decoration: none;     /* Removes the default underline on links */
+  color: #ffffff;            /* Makes the link text white so it shows on the blue bar */
+  font-size: 16px;           /* Sets the size of the link text */
+  font-weight: bold;         /* Makes the text bold */
+  font-family: Arial, sans-serif;
+}
+
+/* :hover means "what happens when the mouse moves over the link" */
+nav ul li a:hover {
+  color: #FFD700;            /* Changes the link to gold when hovered */
+  border-bottom: 2px solid #FFD700; /* Adds a gold underline on hover */
 }
 
 
 
-footer{
-    background-color: #025658;
-    color: #ffffff;
-    text-align: center;
-    padding: 10px 20px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+/* ================================
+   MAIN CONTENT
+   Style your page content here
+================================ */
+
+main {
+  padding: 40px;
 }
 
+h1 {
+  /* Style your headings */
+}
 
-
+p {
+  /* Style your paragraphs */
+}
