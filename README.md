@@ -17,8 +17,3 @@ Your nav bar must have:
 - Use the comments in style.css as your guide
 - If you get stuck — Google "CSS navigation bar styling" 
   and see what comes up
-
-## Stretch Goal (optional)
-- Make the current page link look different 
-  so visitors know which page they are on
-- Add a logo or website name to the left side of the nav bar
